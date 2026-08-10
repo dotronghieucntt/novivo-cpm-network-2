@@ -1,0 +1,55 @@
+# dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# production/build artifacts
+dist/
+build/
+coverage/
+test-results/
+playwright-report/
+
+# env/secrets
+.env
+.env*.local
+*.pem
+*.key
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript cache
+*.tsbuildinfo
+
+# database/runtime files
+prisma/*.db
+prisma/*.db-journal
+*.sqlite
+*.sqlite3
+
+# temporary scripts/files
+.tmp-*
+tmp-*
+
+# Python/cache
+__pycache__/
+*.pyc
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# screenshots / debug images
+*.png
+
+# Claude debug logs
+.claude-next-dev*.log
